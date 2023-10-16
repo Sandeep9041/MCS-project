@@ -1,0 +1,71 @@
+.navbar {
+    width: 100% !important;
+    margin:0px;
+    font-family: 'Poppins', sans-serif;
+    padding-inline:55px;
+}
+@media screen and (max-width:1000px){
+    .navbar img{
+        margin-right:35px;
+    }  
+}
+
+.navbar-nav{
+    margin:0px!important;
+    padding: 0px!important;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-item {
+    font-size:15px;
+    margin-bottom:0px!important;
+    margin-top:17px;
+    font-weight:600;
+    margin-right:15px;
+}
+.nav-dropdown-icon{
+    font-size:25px;
+    color: #0076CE;
+}
+.navbar-collapse {
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+.login-btn{
+    border: 1px solid #0076CE;
+    background-color:transparent;
+    color: #0076CE;
+    font-family: 'Poppins', sans-serif;
+    margin-right:15px;
+    border-radius:10px;
+    font-size:13px;
+    padding-inline:25px;
+    padding-block:9px;
+}
+.register-btn{
+    border:0px;
+    background-color:#0076CE;
+    color:#ffffff;
+    font-family: 'Poppins', sans-serif;
+    border-radius:10px;
+    font-size:13px;
+    padding-inline:21px;
+    padding-block:9px;
+}
+.navbar-toggler{
+    background-color:transparent;
+    color: #000 !important;;
+    border: 0px;
+}
+.navbar-toggler span{
+    border: 0px !important;;
+    outline:none!important;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-toggler-icon ::after{
+    border: 0px !important;;
+    outline: none !important;;
+}

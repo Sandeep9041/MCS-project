@@ -1,0 +1,128 @@
+.home-sec-bg{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: red; */
+    /* margin-top:20vh!important; */
+}   
+.home-sec-heading{
+    font-size:46px;
+    font-weight:700;
+    width:100%;
+    word-spacing:0.5rem;
+    margin-top:25px;
+    text-align: center;
+}
+.home-sec-heading span {
+    background: -webkit-linear-gradient(#0076CE,#9400D3);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+}
+.home-sec-text{
+    text-align: center;
+    font-size:15px;
+    margin-top:15px;
+}
+.home-sec-cards{
+    display:flex;
+    justify-content: space-around;
+    margin-top:55px;
+    background-image:url("https://res.cloudinary.com/dxsppjwqc/image/upload/v1697348326/Vector_13_anujcu.png");
+    background-size:cover;
+    padding:55px;
+    flex-wrap: wrap;
+}
+.home-sec-card{
+    width:28%;
+    background-color: #ffffff;
+    margin-bottom:25px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius:20px;
+    position: relative;
+    /* max-height:255px; */
+    min-height: fit-content;
+}
+.home-sec-card-content{
+    padding:25px;
+}
+.home-sec-card h3 {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+.home-sec-card p{
+    font-size:13px;
+    text-align: center;
+    width: 85%;
+    margin-inline:auto;
+    /* background-color: red; */
+}
+.home-sec-card p span{
+    font-weight:600;
+}
+.home-sec-card-dates{
+    background-color: #F4F4F4;
+    display: flex;
+    padding:15px;
+    border-radius:15px;
+}
+.home-sec-card-dates-due-date{
+    margin-right:25px;
+}
+.home-sec-card-dates-due-date h4{
+    font-size:15px;
+    color:#0076CE;
+    font-weight:600;
+}
+.home-sec-cards-dates-penalty h4{
+    color: #ff6666;
+    font-size:15px;
+    font-weight:600;
+}
+.home-sec-card-dates-due-date p , .home-sec-cards-dates-penalty p {
+    text-align: start;
+    font-size: 12px;
+    width:100%;
+    /* background-color: red; */
+}
+.home-sec-card-tag{
+    /* background-color: red; */
+    top:-7px;
+    left:-7px!important;
+    /* margin-top:0px; */
+    position: absolute;
+    width: 35px !important;;
+    height: 35px !important;;
+    text-align:start!important;
+    background-image:linear-gradient(to right,#0076CE,#9400D3);
+    color:#ffffff;
+    border-radius:6px;
+    padding:5px;
+    font-size:17px!important;
+    font-weight:700!important;
+}
+.home-sec-card-note{
+    font-size:13px;
+    width: 85%;
+    margin-inline:auto;
+    margin-block: 15px;
+}
+.home-sec-card-note span {
+    font-weight:700;
+}
+@media screen and (max-width:786px){
+    .home-sec-cards{
+        flex-wrap:wrap;
+    }
+    .home-sec-card{
+        width:100%;
+    }  
+}
+@media screen and ((min-width:786px) and (max-width:1200px)){
+.home-sec-cards{
+    flex-wrap: wrap;
+}
+.home-sec-card{
+    width: 35%;
+}
+.home-sec-bg{
+}
+}
